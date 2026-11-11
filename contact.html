@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Уютное утро</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Контакты</h1>
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="about.html">О нас</a>
+                <a href="contact.html">Контакты</a>
+            </nav>
+        </header>
+        
+        <main>
+            <div class="contact-content">
+                <h2>Ждем вас в гости!</h2>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <span class="contact-label">Адрес:</span>
+                            <span class="contact-value">ул. Кофейная, 15</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon"></span>
+                        <div>
+                            <span class="contact-label">Телефон:</span>
+                            <span class="contact-value">+7 (999) 123-45-67</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <div>
+                            <span class="contact-label">Email:</span>
+                            <span class="contact-value">hello@uyutnoe-utro.ru</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <div>
+                            <span class="contact-label">Instagram:</span>
+                            <span class="contact-value">@uyutnoe_utro</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="map-placeholder">
+                    <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&h=300&fit=crop" 
+                         alt="Карта" 
+                         class="map-image">
+                    <div class="map-overlay">
+                        <p>🗺️ Мы находимся в центре города, рядом с парком</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Напишите нам</h3>
+                    <p class="form-description">Есть вопросы или хотите забронировать столик? Заполните форму!</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Ваше имя:</label>
+                            <input type="text" id="name" name="name" placeholder="Как к вам обращаться?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email или телефон:</label>
+                            <input type="text" id="email" name="email" placeholder="Для связи с вами" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Сообщение:</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Ваш вопрос или пожелание..." required></textarea>
+                        </div>
+                        <button type="submit">Отправить сообщение ☕</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2026 Кофейня "Уютное утро". Все права защищены.</p>
+        </footer>
+    </div>
+</body>
+</html>
